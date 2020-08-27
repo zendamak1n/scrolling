@@ -5,7 +5,8 @@
   margin: 0 auto;
   padding: 0;
   width: 90%;  /* コンテンツが見切れて見えるようにする */
-  overflow-x: auto;  /* 横スクロールの指定 */
+  overflow-x: scroll;  /* 横スクロールの指定 */
+  overflow-y: hidden;
   white-space: nowrap;  /* 横スクロールの指定 */
   /*overflow-scrolling: touch;*/  /* スクロールを滑らかにする */
   /*-webkit-overflow-scrolling: touch;*/  /* スクロールを滑らかにする */
