@@ -1,13 +1,11 @@
 @charset "utf-8";
 
 .scroll_list{
-  margin: 0 auto;
-  width: 90%;  /* コンテンツが見切れて見えるようにする */
+  margin: 60px auto 0;
+  height: 45.7142857vw;
   overflow-x: scroll;  /* 横スクロールの指定 */
 	overflow-y: hidden;
   white-space: nowrap;  /* 横スクロールの指定 */
-  /*overflow-scrolling: touch;*/  /* スクロールを滑らかにする */
-  /*-webkit-overflow-scrolling: touch;*/  /* スクロールを滑らかにする */
 }
 .scroll_list li{
   display: inline-block;  /* 横並びにする指定 */
@@ -17,5 +15,5 @@
   margin-left: 0;
 }
 .scroll-list img {
-	width: 100%;
+	width: 90%;
 }
